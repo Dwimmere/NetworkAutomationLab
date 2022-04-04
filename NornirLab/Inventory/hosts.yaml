@@ -1,0 +1,22 @@
+---
+R1:
+  hostname: 192.168.122.11
+  groups:
+   - IOS
+
+R2:
+  hostname: 192.168.122.12
+  groups:
+    - IOS
+
+R3:
+  hostname: 192.168.122.13
+  groups:
+    - IOS
+
+R4:
+  hostname: 192.168.122.14
+  groups:
+    - IOS
+...
+    
