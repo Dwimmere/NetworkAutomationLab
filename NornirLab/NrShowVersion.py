@@ -28,6 +28,9 @@ if __name__ == "__main__":
 
 result = nr.run(netmiko_send_command, command_string="show version")
 
+shVerOutput = open('shVerOutput.txt', 'w')
+shVerOutput.append(result)
+
 print_result(result)
 
 
